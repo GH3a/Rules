@@ -1,0 +1,4 @@
+#!name=AD_rules
+#!desc=整理 149,000+ 条广告域名
+[RULE]
+DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Huge_AD_rules.list,REJECT
