@@ -1,0 +1,10 @@
+#!name=Kantv
+#!desc=去广告。
+
+[URL Rewrite]
+^https://asset\.bixjf\.com/2020/ad/* REJECT
+^https://asset\.bixjf\.com/2019/ad/* REJECT
+
+
+[MITM]
+hostname = %APPEND% asset.bixjf.com
