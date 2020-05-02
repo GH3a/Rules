@@ -5,6 +5,7 @@
 #去广告
 ^https://asset\.bixjf\.com/2020/ad/ https://asset.bixjf.com/2020/ad0/ 302
 ^https://asset\.bixjf\.com/2019/ad/ https://asset.bixjf.com/2019/ad0/ 302
+^https://asset\.bixjf\.com/2018/ad/ https://asset.bixjf.com/2018/ad0/ 302
 
 [MITM]
 hostname = %APPEND% asset.bixjf.com
