@@ -3,9 +3,7 @@
 
 [URL Rewrite]
 #去广告
-^https://asset\.bixjf\.com/2020/ad/ https://asset.bixjf.com/2020/ad0/ 302
-^https://asset\.bixjf\.com/2019/ad/ https://asset.bixjf.com/2019/ad0/ 302
-^https://asset\.bixjf\.com/2018/ad/ https://asset.bixjf.com/2018/ad0/ 302
+(^(http|https)://asset.bixjf.com/(2018|2019|2020)/)ad(?/) ad0 307
 
 [MITM]
 hostname = %APPEND% asset.bixjf.com
