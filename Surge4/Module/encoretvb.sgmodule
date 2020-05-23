@@ -6,6 +6,6 @@
 ^(http|https)://encoretvb.com/images/wallpaper*.jpg https://www.davidguan.com/wallpaper.jpg 302
 
 [MITM]
-hostname = %APPEND% *.encoretvb.com
+hostname = %APPEND% *.encoretvb.com, encoretvb.com
 
 
