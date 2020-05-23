@@ -1,0 +1,11 @@
+#!name=encoreTVB
+#!desc=去广告。
+
+[URL Rewrite]
+#去广告
+^(http|https)://encoretvb.com/images/wallpaper*.jpg https://www.davidguan.com/wallpaper.jpg 302
+
+[MITM]
+hostname = %APPEND% *.encoretvb.com
+
+
