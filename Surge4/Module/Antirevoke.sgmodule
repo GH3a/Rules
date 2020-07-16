@@ -1,0 +1,7 @@
+#!name=Antirevoke
+#!desc=屏蔽Apple证书验证服务器。
+#!system=ios
+
+[Rule]
+# reject apple相关域名
+DOMAIN,ocsp.apple.com,REJECT
