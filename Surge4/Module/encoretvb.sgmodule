@@ -1,0 +1,11 @@
+#!name=encoreTVB
+#!desc=去广告。
+
+[URL Rewrite]
+#去广告
+^(http|https)://encoretvb.com/images/ /images0/ 302
+
+[MITM]
+hostname = %APPEND% *.encoretvb.com, encoretvb.com
+
+
