@@ -1,0 +1,11 @@
+#!name=Anti-revoke-apple
+#!desc=防止证书掉签
+
+[RULE]
+# > Anti revoke
+#绕过企业证书过期
+DOMAIN-SUFFIX,ocsp.apple.com,REJECT
+DOMAIN-SUFFIX,world-gen.g.aaplimg.com,REJECT
+DOMAIN-SUFFIX,gdmf.apple.com,REJECT
+DOMAIN-SUFFIX,mesu.apple.com,REJECT
+DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org,REJECT
