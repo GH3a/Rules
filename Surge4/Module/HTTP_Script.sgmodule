@@ -28,7 +28,7 @@ Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(moments\?|topst
 #QQ News = type=http-response,pattern=https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList),requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/QQNews.js,script-update-interval=0
 
 # > 微信公众号 (By Choler)
-WeChat = type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,script-path=https://Choler.github.io/Surge/Script/WeChat.js,script-update-interval=0
+#WeChat = type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,script-path=https://Choler.github.io/Surge/Script/WeChat.js,script-update-interval=0
 
 # > Display jd historical price
 JD Historical Price = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,script-update-interval=0
