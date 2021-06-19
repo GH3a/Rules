@@ -4,5 +4,5 @@ https://.*.com//services
 hostname=www.ctyun.cn
 */
 
-body = $response.body.replace("pValue":"5", "pValue":"20").replace("pass":"false", "pass":"true")
+body = $response.body.replace('"pValue":"5"', '"pValue":"20"').replace('"pass":"false"', '"pass":"true"')
 $done({body});
