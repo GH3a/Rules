@@ -1,9 +1,0 @@
-#!name=ctyun
-#!desc=ctyun
-[Script]
-
-#ctyun
-^https:\/\/www\.ctyun\.cn\/gw\/order\/SubmitOnce2$ url script-response-body https://raw.githubusercontent.com/GH3a/Rules/master/Surge4/JS/ctyun.js
-
-[MITM]
-hostname=www.ctyun.cn,*.ctyun.cn
