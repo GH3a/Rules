@@ -2,8 +2,9 @@ let url = $request.url;
 let headers = $request.headers;
 let body = $request.body;
 
-
-body.user_type = "paid";
+for (i in body) {
+  body['user_type'] = "paid";
+}
 
 $done({
 	url: url,
