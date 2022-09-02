@@ -2,4 +2,4 @@
 #!desc=该模块适用于更新
 
 [Script]
-订阅修正 = type=http-request,pattern=^https?:\/\/content-api\.mytvsuper\.com\/v1\/channel\/list*,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/GH3a/Rules/master/JS/mytvsuper.js
+订阅修正 = type=http-request,pattern=^https?:\/\/content-api\.mytvsuper\.com\/v1\/channel\/list*,requires-body=1,script-update-interval=-1,max-size=131072,script-path=https://raw.githubusercontent.com/GH3a/Rules/master/JS/mytvsuper.js
