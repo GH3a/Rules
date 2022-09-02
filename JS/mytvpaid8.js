@@ -3,7 +3,7 @@ let headers = $request.headers;
 let body = $request.body;
 
 for (i in body) {
-  body['user_type'] = "paid";
+  body.user_type = "paid";
 }
 
 $done({
