@@ -1,5 +1,6 @@
 let body = JSON.parse($response.body); 
 for (i in body.data) {
+  body.data[i].has_buy_call = 15;
   body.data[i].rich_beans = 1;
   body.data[i].rich_level = 1;
   body.data[i].is_hide_distance = 1;
