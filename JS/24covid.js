@@ -18,6 +18,6 @@ let curTime = date.getFullYear() + "-" + month + "-" + day + " " + hour + ":" + 
 let body = JSON.parse($response.body); 
 /*let timenow = body.data.currentTime;
 body.data.testCompleteTime = timenow;*/
-let body.data.testCompleteTime = curTime;
+body.data.testCompleteTime = curTime;
 body = JSON.stringify(body);
 $done({body});
