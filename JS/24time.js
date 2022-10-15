@@ -20,8 +20,8 @@ let curTime = date.getFullYear() + "-" + month + "-" + day + " " + hour + ":" + 
 let body = JSON.parse($response.body); 
 let listdata = body.data.pageUtils.list;
 for (i in listdata) {
-  let listdata[0].testCompleteTime = curTime;
-  let listdata[0].collectionTime = curTime;
+  listdata[0].testCompleteTime = curTime;
+  listdata[0].collectionTime = curTime;
 }
 body = JSON.stringify(body);
 $done({body}); 
