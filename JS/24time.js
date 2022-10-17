@@ -1,5 +1,3 @@
-
-
 function zeroFill(i){
     if (i >= 0 && i <= 9) {
         return "0" + i;
@@ -16,7 +14,6 @@ let minute = zeroFill(date.getMinutes());//分
 let second = "00";
 /*let second = zeroFill(date.getSeconds());//秒*/
 let curTime = date.getFullYear() + "-" + month + "-" + day + " " + hour + ":" + minute + ":" + second;
-
 
 let datetest = new Date(new Date().getTime() - 8 * 44 * 60 * 1000);
 let monthtest = zeroFill(datetest.getMonth() + 1);//月
