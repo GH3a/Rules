@@ -1,7 +1,4 @@
-let body = JSON.parse($response.body); 
-body.displayName = "Eatsleepeat";
-body.binaries.displayName = "Eatsleepeat";
-body.creator.displayName = "Eatsleepeat";
-body.emailAddress = "eatsleepeat@eat.com";
-body = JSON.stringify(body);
+let body = $response.body; 
+let body.replace(/"displayName\".+\"externalResourceType\"/g, "\"displayName\": \"Eatsleepeat\",         \"externalResourceType\"");
+let body = $response.body.replace(/budingkkk@126.com/g, "eatsleepeat@eat.com");
 $done({body});
