@@ -1,4 +1,4 @@
 let body = JSON.parse($response.body); 
-body.data.email = "eatsleepeat@eat.com";
+let body.data.replace(/id@yuwaikoon.com/g, "eatsleepeat@eat.com");
 body = JSON.stringify(body);
 $done({body});
