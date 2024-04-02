@@ -1,0 +1,48 @@
+{
+    "code": 1,
+    "data": {
+        "danmuon": "on",
+        "color": "#ff6500",
+        "logo": "",
+        "trytime": "3",
+        "waittime": "5",
+        "sendtime": "1",
+        "dmrule": "",
+        "pbgjz": "",
+        "ads": {
+            "state": "on",
+            "set": {
+                "state": "1",
+                "group": "null",
+                "pic": {
+                    "time": "10",
+                    "img": "https://api.localau.vip/static/pic/gomarkets920480.png",
+                    "link": ""
+                },
+                "vod": {
+                    "url": "",
+                    "link": ""
+                }
+            },
+            "pause": {
+                "state": "on",
+                "pic": "https://co.localau.vip/tccenter/ad/loc/16",
+                "link": ""
+            }
+        },
+        "adslist": [
+            {
+                "pic": "https://co.localau.vip/uploads/20240301/gomarkets-202403011221582098.jpg",
+                "url": "",
+                "video": ""
+            },
+            {
+                "pic": "https://co.localau.vip/uploads/20240304/infinity capital-202403041318427865.jpg",
+                "url": "",
+                "video": ""
+            }
+        ],
+        "adsInsideList": [],
+        "adsInsideTime": 2100
+    }
+}
